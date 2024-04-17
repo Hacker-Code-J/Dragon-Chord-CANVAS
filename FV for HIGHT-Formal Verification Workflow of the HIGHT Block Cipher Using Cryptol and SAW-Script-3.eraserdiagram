@@ -11,6 +11,5 @@ Implement in Cryptol > Test Properties [shape: diamond, icon: check-circle]
 Test Properties > Properties Hold [icon: thumbs-up]: Yes
 Test Properties > Modify Algorithm [icon: tool]: No
 Modify Algorithm > Implement in Cryptol
-Properties Hold > Implement in SAW script [icon: terminal]
+Properties Hold > Implement in SAW script [icon: code]
 Implement in SAW script > Verify with SAW script [icon: search]
-
