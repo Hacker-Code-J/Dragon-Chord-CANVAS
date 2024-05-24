@@ -1,0 +1,28 @@
+flowchart-diagram
+
+title Program Verification Process
+
+// Define nodes and relationships "A > B"
+// Set shape and icon properties in "[]"
+// Add labels to relationships after ":"
+Start [shape: oval, icon: play] > Write Code [icon: code]
+Write Code > Write Formal Specification [icon: file-text]
+Write Formal Specification > Choose Verification Type [shape: diamond, icon: check-square]
+
+Choose Verification Type > Full Verification [icon: check-circle]: Full
+Choose Verification Type > Bounded Verification [icon: check-circle]: Bounded
+
+Full Verification > Provide Loop Invariants [icon: repeat]
+Full Verification > Provide Method Pre- and Post-conditions [icon: file-text]
+Provide Loop Invariants > Perform Full Verification [icon: check-circle]
+Provide Method Pre- and Post-conditions > Perform Full Verification
+
+Perform Full Verification > Verify Correctness [shape: diamond, icon: check-square]
+Verify Correctness > Proof of Correctness [shape: oval, icon: award]: Correct
+Verify Correctness > Error in Specification [shape: oval, icon: x-square]: Incorrect
+
+Bounded Verification > Perform Bounded Verification [icon: check-circle]
+Perform Bounded Verification > Verify Correctness (Bounded) [shape: diamond, icon: check-square]
+Verify Correctness (Bounded) > Proof of Correctness (Bounded) [shape: oval, icon: award]: Correct
+Verify Correctness (Bounded) > Error in Specification (Bounded) [shape: oval, icon: x-square]: Incorrect
+

@@ -1,0 +1,45 @@
+flowchart-diagram
+
+title Program Verification Flowchart
+
+Inputs [color: lightblue] {
+  Program Implementation [icon: code]
+  Specification [icon: file-text]
+  Human Annotations (Optional) [icon: user]
+}
+
+Verification Process [color: lightgreen] {
+  VC Generator [icon: settings]
+  Theorem Prover [icon: check-square]
+}
+
+Verification Outcomes [color: lightcoral] {
+  Verification Success [icon: thumbs-up]
+  Verification Failure [icon: thumbs-down]
+}
+
+Failure Reasons [color: lightyellow] {
+  Logical Error [icon: alert-triangle]
+  Insufficient Human Input [icon: user-x]
+  Incompleteness of Theorem Prover [icon: help-circle]
+}
+
+Start [shape: oval, icon: play-circle] > Program Implementation
+Start > Specification
+Program Implementation > VC Generator
+Specification > VC Generator
+Human Annotations (Optional) > VC Generator
+
+VC Generator > Theorem Prover
+Theorem Prover > Verification Success: VC is valid
+Theorem Prover > Verification Failure: VC is not valid
+
+Verification Failure > Logical Error
+Verification Failure > Insufficient Human Input
+Verification Failure > Incompleteness of Theorem Prover
+
+Verification Failure > VC Generator: Retry with more precise reasoning
+
+Verification Success > End [shape: oval, icon: stop-circle]
+Verification Failure > End
+
