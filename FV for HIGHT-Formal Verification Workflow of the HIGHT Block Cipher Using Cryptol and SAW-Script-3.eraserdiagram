@@ -1,15 +1,15 @@
 flowchart-diagram
 
 
-title Formal Verification Workflow of the HIGHT Block Cipher Using Cryptol and SAW-Script
+// title Formal Verification Workflow of the HIGHT Block Cipher Using Cryptol and SAW-Script
 
 // Define nodes and relationships
-Formal Verification [shape: oval, icon: flag] > HIGHT Algorithm Specification [icon: file-text]
+Formal Verification [shape: oval, icon: flag] >  HIGHT Algorithm Specification [icon: file-text]
 HIGHT Algorithm Specification > Define Properties [icon: edit-3, color: green]
-Define Properties > Implement in Cryptol [icon: code]
+Define Properties > Implement in Cryptol [icon: code, color: green]
 Implement in Cryptol > Test Properties [shape: diamond, icon: check-circle]
-Test Properties > Properties Hold [icon: thumbs-up]: Yes
-Test Properties > Modify Algorithm [icon: tool]: No
+Test Properties > Properties Hold [icon: thumbs-up]: Good
+Test Properties > Modify Algorithm [icon: tool]: Bad
 Modify Algorithm > Implement in Cryptol
-Properties Hold > Implement in SAW script [icon: code]
-Implement in SAW script > Verify with SAW script [icon: search]
+Properties Hold > Implement in SAW script [icon: code, color: blueviolet]
+Implement in SAW script > Verify with SAW script [icon: search, color: blueviolet]

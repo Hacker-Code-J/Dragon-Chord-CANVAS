@@ -1,0 +1,23 @@
+flowchart-diagram
+
+title Cryptol Function Verification Process
+
+// Define groups and nodes
+Groups {
+  Cryptol Function [color: lightblue] {
+    Define Function [icon: code]
+    Set Property [icon: settings]
+  }
+  Verification [color: lightgreen] {
+    Run Z3 Solver [icon: play-circle]
+    Check Result [shape: diamond, icon: search]
+  }
+}
+
+// Define connections and labels
+Define Function > Set Property: Define function in Cryptol
+Set Property > Run Z3 Solver: Set property for verification
+Run Z3 Solver > Check Result: Execute Z3 Solver
+Check Result > Proof Valid [shape: oval, color: green, icon: check-circle]: Valid
+Check Result > Proof Invalid [shape: oval, color: red, icon: x-circle]: Invalid
+
