@@ -6,7 +6,7 @@
 <!-- eraser-additional-content -->
 ## Diagrams
 <!-- eraser-additional-files -->
-<a href="/2024-spring/capstion-design-Cryptol Function Verification Process-1.eraserdiagram" data-element-id="qbrWln7NFzZ7u1U3zMMCN"><img src="/.eraser/e2AqOuWwAmwMltwj9ejI___MLcnuqiMBzUCptOlkksZrtqRQO53___---diagram----5ff86a1d9ce1b32cbf74b8139d07a14b-Cryptol-Function-Verification-Process.png" alt="" data-element-id="qbrWln7NFzZ7u1U3zMMCN" /></a>
+<a href="/2024-spring/capstion-design-Cryptol Function Verification Process-1.eraserdiagram" data-element-id="qbrWln7NFzZ7u1U3zMMCN"><img src="/.eraser/e2AqOuWwAmwMltwj9ejI___MLcnuqiMBzUCptOlkksZrtqRQO53___---diagram----2251f4c2008ed7bd696cf067b797cfd1-Cryptol-Function-Verification-Process.png" alt="" data-element-id="qbrWln7NFzZ7u1U3zMMCN" /></a>
 <!-- end-eraser-additional-files -->
 <!-- end-eraser-additional-content -->
 <!--- Eraser file: https://app.eraser.io/workspace/e2AqOuWwAmwMltwj9ejI --->

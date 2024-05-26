@@ -1,0 +1,21 @@
+cloud-architecture-diagram
+
+// Nodes and groups
+title Computer-Aided Cryptography Architecture
+
+Design Tools [icon: aws-cloud9]
+Implementation Tools [icon: aws-codebuild]
+Deployment Tools [icon: aws-codepipeline]
+Security Proof Tools [icon: aws-shield]
+Optimized Implementation Tools [icon: aws-lambda]
+Side-Channel Protection Tools [icon: aws-waf]
+Attack Surface Analysis Tools [icon: aws-inspector]
+
+// Connections
+Design Tools > Security Proof Tools
+Implementation Tools > Optimized Implementation Tools
+Deployment Tools > Side-Channel Protection Tools
+Security Proof Tools > Optimized Implementation Tools
+Optimized Implementation Tools > Side-Channel Protection Tools
+Side-Channel Protection Tools > Attack Surface Analysis Tools
+

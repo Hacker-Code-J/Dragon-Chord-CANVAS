@@ -1,0 +1,28 @@
+cloud-architecture-diagram
+
+// Title
+title Computer-Aided Cryptography Architecture
+
+// Groups and Nodes
+Design Level [color: blue, icon: puzzle] {
+  Design Tool [icon: tool]
+  Security Proof Manager [icon: shield]
+}
+
+Implementation Level [color: green, icon: code] {
+  Implementation Tool [icon: code]
+  Optimized Implementation Checker [icon: check-circle]
+}
+
+Deployment Level [color: red, icon: server] {
+  Deployment Tool [icon: server]
+  Side-Channel Protection Checker [icon: lock]
+}
+
+// Connections
+Design Tool > Security Proof Manager
+Security Proof Manager > Implementation Tool
+Implementation Tool > Optimized Implementation Checker
+Optimized Implementation Checker > Deployment Tool
+Deployment Tool > Side-Channel Protection Checker
+

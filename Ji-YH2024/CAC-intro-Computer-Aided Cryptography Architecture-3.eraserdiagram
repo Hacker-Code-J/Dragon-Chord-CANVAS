@@ -1,0 +1,46 @@
+cloud-architecture-diagram
+
+// Title
+title Computer-Aided Cryptography Architecture
+
+// Nodes and Groups
+Design Level [color: blue, icon: puzzle] {
+  Security Proofs [icon: shield]
+  Design Tools [icon: tool]
+}
+
+Implementation Level [color: green, icon: code] {
+  Optimized Implementations [icon: rocket]
+  Implementation Tools [icon: tool]
+}
+
+Deployment Level [color: red, icon: server] {
+  Side-Channel Protection [icon: lock]
+  Deployment Tools [icon: tool]
+}
+
+Attack Surface [icon: alert-triangle]
+Cryptography Experts [icon: user-check]
+Computer-Aided Cryptography (CAC) [icon: brain]
+
+// Connections
+Design Tools > Security Proofs
+Security Proofs > Design Tools
+Implementation Tools > Optimized Implementations
+Optimized Implementations > Implementation Tools
+Deployment Tools > Side-Channel Protection
+Side-Channel Protection > Deployment Tools
+Design Tools > Implementation Tools
+Implementation Tools > Deployment Tools
+Security Proofs > Optimized Implementations
+Optimized Implementations > Side-Channel Protection
+Attack Surface > Security Proofs
+Attack Surface > Optimized Implementations
+Attack Surface > Side-Channel Protection
+Cryptography Experts > Design Tools
+Cryptography Experts > Implementation Tools
+Cryptography Experts > Deployment Tools
+Computer-Aided Cryptography (CAC) > Design Tools
+Computer-Aided Cryptography (CAC) > Implementation Tools
+Computer-Aided Cryptography (CAC) > Deployment Tools
+
