@@ -1,0 +1,63 @@
+cloud-architecture-diagram
+
+// Title and nodes
+title Computer-Aided Cryptography Systematization
+
+Design-Level Security [color: blue, icon: lock] {
+  Symbolic Security [icon: shield]
+  Computational Security [icon: shield]
+  High-Level Designs (Design-Level Security) [icon: puzzle]
+}
+
+Implementation-Level Security [color: green, icon: code] {
+  Digital Side-Channel Resistance [icon: shield]
+  High-Level Designs (Implementation-Level Security) [icon: puzzle]
+  Optimized Implementations (Implementation-Level Security) [icon: rocket]
+  Side-Channel Attacks (Implementation-Level Security) [icon: bug]
+}
+
+Deployment Level [color: red, icon: cloud] {
+  Low-Level Threats [icon: alert-triangle]
+  Side-Channel Attacks (Deployment Level) [icon: bug]
+  Optimized Implementations (Deployment Level) [icon: rocket]
+}
+
+Computer-Aided Cryptography (CAC) [icon: brain] {
+  Formal Approaches [icon: book]
+  Machine-Checkable Approaches [icon: check-circle]
+}
+
+Individual Tools [icon: tool]
+Combined Tools [icon: tools]
+High Degree of Assurance [icon: thumbs-up]
+
+// Connections
+Design-Level Security > Symbolic Security
+Design-Level Security > Computational Security
+Design-Level Security > High-Level Designs (Design-Level Security)
+
+Implementation-Level Security > Digital Side-Channel Resistance
+Implementation-Level Security > High-Level Designs (Implementation-Level Security)
+Implementation-Level Security > Optimized Implementations (Implementation-Level Security)
+Implementation-Level Security > Side-Channel Attacks (Implementation-Level Security)
+
+Deployment Level > Low-Level Threats
+Deployment Level > Side-Channel Attacks (Deployment Level)
+Deployment Level > Optimized Implementations (Deployment Level)
+
+Computer-Aided Cryptography (CAC) > Formal Approaches
+Computer-Aided Cryptography (CAC) > Machine-Checkable Approaches
+
+Formal Approaches > Designing Cryptography
+Formal Approaches > Analyzing Cryptography
+Formal Approaches > Implementing Cryptography
+
+Machine-Checkable Approaches > Security Proofs
+Machine-Checkable Approaches > Optimized Implementations (Implementation-Level Security)
+Machine-Checkable Approaches > Design Specifications
+Machine-Checkable Approaches > Deployment Level
+Machine-Checkable Approaches > Side-Channel Attacks (Deployment Level)
+
+Individual Tools > Combined Tools
+Combined Tools > High Degree of Assurance
+

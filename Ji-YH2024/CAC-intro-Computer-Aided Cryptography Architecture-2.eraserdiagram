@@ -1,21 +1,46 @@
 cloud-architecture-diagram
 
-// Nodes and groups
+// Title
 title Computer-Aided Cryptography Architecture
 
-Design Tools [icon: aws-cloud9]
-Implementation Tools [icon: aws-codebuild]
-Deployment Tools [icon: aws-codepipeline]
-Security Proof Tools [icon: aws-shield]
-Optimized Implementation Tools [icon: aws-lambda]
-Side-Channel Protection Tools [icon: aws-waf]
-Attack Surface Analysis Tools [icon: aws-inspector]
+// Nodes and Groups
+Design Level [color: blue, icon: puzzle] {
+  Security Proofs [icon: shield]
+  Design Tools [icon: tool]
+}
+
+Implementation Level [color: green, icon: code] {
+  Optimized Implementations [icon: rocket]
+  Implementation Tools [icon: tool]
+}
+
+Deployment Level [color: red, icon: server] {
+  Side-Channel Protection [icon: lock]
+  Deployment Tools [icon: tool]
+}
+
+Attack Surface [icon: alert-triangle]
+Cryptography Experts [icon: user-check]
+Computer-Aided Cryptography (CAC) [icon: brain]
 
 // Connections
-Design Tools > Security Proof Tools
-Implementation Tools > Optimized Implementation Tools
-Deployment Tools > Side-Channel Protection Tools
-Security Proof Tools > Optimized Implementation Tools
-Optimized Implementation Tools > Side-Channel Protection Tools
-Side-Channel Protection Tools > Attack Surface Analysis Tools
+Design Tools > Security Proofs
+Security Proofs > Design Tools
+Implementation Tools > Optimized Implementations
+Optimized Implementations > Implementation Tools
+Deployment Tools > Side-Channel Protection
+Side-Channel Protection > Deployment Tools
+Design Tools > Implementation Tools
+Implementation Tools > Deployment Tools
+Security Proofs > Optimized Implementations
+Optimized Implementations > Side-Channel Protection
+Attack Surface > Security Proofs
+Attack Surface > Optimized Implementations
+Attack Surface > Side-Channel Protection
+Cryptography Experts > Design Tools
+Cryptography Experts > Implementation Tools
+Cryptography Experts > Deployment Tools
+Computer-Aided Cryptography (CAC) > Design Tools
+Computer-Aided Cryptography (CAC) > Implementation Tools
+Computer-Aided Cryptography (CAC) > Deployment Tools
 

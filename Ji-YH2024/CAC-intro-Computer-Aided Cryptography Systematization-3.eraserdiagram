@@ -1,0 +1,49 @@
+cloud-architecture-diagram
+
+// Title
+title Computer-Aided Cryptography Systematization
+
+// Nodes and Groups
+Design-Level Security [icon: lock, color: blue] {
+  Symbolic Security [icon: shield]
+  Computational Security [icon: cpu]
+}
+
+Functional Correctness and Efficiency [icon: check-circle, color: green]
+
+Implementation-Level Security [icon: shield, color: red] {
+  Digital Side-Channel Resistance [icon: activity]
+}
+
+Taxonomy of Tools [icon: list, color: orange] {
+  Accuracy [icon: check]
+  Scope [icon: globe]
+  Trustworthiness [icon: thumbs-up]
+  Usability [icon: user]
+}
+
+Main Achievements [icon: award]
+Trade-Offs [icon: shuffle]
+Research Challenges [icon: alert-triangle]
+
+Case Studies [icon: book, color: purple] {
+  Combining Tools [icon: tool]
+}
+
+// Connections
+Design-Level Security > Symbolic Security
+Design-Level Security > Computational Security
+Implementation-Level Security > Digital Side-Channel Resistance
+Taxonomy of Tools > Accuracy
+Taxonomy of Tools > Scope
+Taxonomy of Tools > Trustworthiness
+Taxonomy of Tools > Usability
+Case Studies > Combining Tools
+Design-Level Security > Functional Correctness and Efficiency
+Functional Correctness and Efficiency > Implementation-Level Security
+Implementation-Level Security > Taxonomy of Tools
+Taxonomy of Tools > Main Achievements
+Taxonomy of Tools > Trade-Offs
+Taxonomy of Tools > Research Challenges
+Research Challenges > Case Studies
+

@@ -7,8 +7,9 @@
 ## Diagrams
 <!-- eraser-additional-files -->
 <a href="/Ji-YH2024/CAC-intro-Computer-Aided Cryptography Architecture-1.eraserdiagram" data-element-id="3s3PzYiQjrm4_P6P1Yvnc"><img src="/.eraser/XEsBADsU7nnnOwCbl1qQ___MLcnuqiMBzUCptOlkksZrtqRQO53___---diagram----7adf9850c2a8f478b9f3aebd833de823-Computer-Aided-Cryptography-Architecture.png" alt="" data-element-id="3s3PzYiQjrm4_P6P1Yvnc" /></a>
-<a href="/Ji-YH2024/CAC-intro-Computer-Aided Cryptography Architecture-2.eraserdiagram" data-element-id="uwbu4oAxqU4lcO8-HzHPn"><img src="/.eraser/XEsBADsU7nnnOwCbl1qQ___MLcnuqiMBzUCptOlkksZrtqRQO53___---diagram----c1788aa634d6daa695fdf6dda97b376b-Computer-Aided-Cryptography-Architecture.png" alt="" data-element-id="uwbu4oAxqU4lcO8-HzHPn" /></a>
-<a href="/Ji-YH2024/CAC-intro-Computer-Aided Cryptography Architecture-3.eraserdiagram" data-element-id="piLLrr_wpo_4Aq-Ay7yIK"><img src="/.eraser/XEsBADsU7nnnOwCbl1qQ___MLcnuqiMBzUCptOlkksZrtqRQO53___---diagram----5e8b14ed8ae0735d1bf8783ad95b95d7-Computer-Aided-Cryptography-Architecture.png" alt="" data-element-id="piLLrr_wpo_4Aq-Ay7yIK" /></a>
+<a href="/Ji-YH2024/CAC-intro-Computer-Aided Cryptography Architecture-2.eraserdiagram" data-element-id="piLLrr_wpo_4Aq-Ay7yIK"><img src="/.eraser/XEsBADsU7nnnOwCbl1qQ___MLcnuqiMBzUCptOlkksZrtqRQO53___---diagram----5e8b14ed8ae0735d1bf8783ad95b95d7-Computer-Aided-Cryptography-Architecture.png" alt="" data-element-id="piLLrr_wpo_4Aq-Ay7yIK" /></a>
+<a href="/Ji-YH2024/CAC-intro-Computer-Aided Cryptography Systematization-3.eraserdiagram" data-element-id="PxA5y9ON6bmHYX_3_YC3m"><img src="/.eraser/XEsBADsU7nnnOwCbl1qQ___MLcnuqiMBzUCptOlkksZrtqRQO53___---diagram----f69a1e0ddf1618def15b729f79aaa731-Computer-Aided-Cryptography-Systematization.png" alt="" data-element-id="PxA5y9ON6bmHYX_3_YC3m" /></a>
+<a href="/Ji-YH2024/CAC-intro-Computer-Aided Cryptography Systematization-4.eraserdiagram" data-element-id="-zg39zIl0R-U05azkNQIe"><img src="/.eraser/XEsBADsU7nnnOwCbl1qQ___MLcnuqiMBzUCptOlkksZrtqRQO53___---diagram----99469b21dadb7022159b23aa9ae11f0d-Computer-Aided-Cryptography-Systematization.png" alt="" data-element-id="-zg39zIl0R-U05azkNQIe" /></a>
 <!-- end-eraser-additional-files -->
 <!-- end-eraser-additional-content -->
 <!--- Eraser file: https://app.eraser.io/workspace/XEsBADsU7nnnOwCbl1qQ --->
