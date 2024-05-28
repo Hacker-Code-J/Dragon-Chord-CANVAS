@@ -1,0 +1,29 @@
+cloud-architecture-diagram
+
+// Title and groups
+title Verification of Symbolic Security and Computational Security
+
+Attacker Models [color: red, icon: shield] {
+  Passive Attacker [icon: eye]
+  Active Attacker [icon: user-x] {
+    Data Recombination [icon: shuffle]
+    Primitive Calls [icon: code]
+    Cryptographic Analysis [icon: lock] {
+      White Box [icon: box]
+      Black Box [icon: box]
+    }
+  }
+}
+
+Symbolic Security [color: blue, icon: key] {
+  Dolev-Yao Model [icon: book] {
+    Proverif [icon: check-circle]
+    Tamarin [icon: check-circle]
+  }
+}
+
+Computational Security [color: green, icon: cpu] {
+  Game-Based Probability Attacker Model [icon: gamepad] {
+    EasyCrypt [icon: check-circle]
+}
+}

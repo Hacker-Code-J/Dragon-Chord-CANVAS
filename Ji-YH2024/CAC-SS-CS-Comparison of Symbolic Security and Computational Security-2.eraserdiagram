@@ -1,0 +1,80 @@
+cloud-architecture-diagram
+
+// Title
+title Comparison of Symbolic Security and Computational Security
+
+// Symbolic Security Group
+Symbolic Security [color: blue, icon: shield] {
+  Verification Model [icon: book] {
+    Abstract and Rule-Based [icon: book-open]
+  }
+  Attack Model [icon: target] {
+    Dolev-Yao Model [icon: lock]
+  }
+  Tools [icon: toolbox] {
+    ProVerif [icon: code]
+    Tamarin [icon: code]
+  }
+  Automation [icon: settings] {
+    Highly Suitable [icon: check-circle]
+  }
+  Practical Applicability [icon: check-square] {
+    Analyzing Logical Flaws [icon: search]
+  }
+  Examples of Use [icon: list] {
+    TLS [icon: lock]
+    Signal [icon: message-circle]
+    Bluetooth [icon: bluetooth]
+  }
+  Verification Method [icon: check] {
+    Abstract Interpretation and Symbolic Terms [icon: file-text]
+  }
+}
+
+// Computational Security Group
+Computational Security [color: green, icon: shield] {
+  Verification Model [icon: book] {
+    Probabilistic, Game-Based Model [icon: book-open]
+  }
+  Attack Model [icon: target] {
+    Game-Based Probability Model [icon: lock]
+  }
+  Tools [icon: toolbox] {
+    EasyCrypt [icon: code]
+    CryptoVerif [icon: code]
+    Squirrel [icon: code]
+  }
+  Automation [icon: settings] {
+    Less Suitable [icon: x-circle]
+  }
+  Practical Applicability [icon: check-square] {
+    Probabilistic Security Bounds [icon: search]
+  }
+  Examples of Use [icon: list] {
+    General Cryptographic Analysis [icon: lock]
+  }
+  Verification Method [icon: check] {
+    Concrete Proofs from Computational Hardness Assumptions [icon: file-text]
+  }
+}
+
+// Connections
+Verification Model > Abstract and Rule-Based
+Verification Model > Probabilistic, Game-Based Model
+Attack Model > Dolev-Yao Model
+Attack Model > Game-Based Probability Model
+Tools > ProVerif
+Tools > Tamarin
+Tools > EasyCrypt
+Tools > CryptoVerif
+Tools > Squirrel
+Automation > Highly Suitable
+Automation > Less Suitable
+Practical Applicability > Analyzing Logical Flaws
+Practical Applicability > Probabilistic Security Bounds
+Examples of Use > TLS
+Examples of Use > Signal
+Examples of Use > Bluetooth
+Examples of Use > General Cryptographic Analysis
+Verification Method > Abstract Interpretation and Symbolic Terms
+

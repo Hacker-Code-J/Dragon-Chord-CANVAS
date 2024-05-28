@@ -1,0 +1,39 @@
+cloud-architecture-diagram
+
+// Title
+title Comparison of Symbolic and Computational Security on DLS
+
+// Nodes and Groups
+Symbolic Security [color: blue, icon: shield] {
+  ProVerif [icon: code]
+  Tamarin [icon: code]
+}
+
+Computational Security [color: green, icon: lock] {
+  EasyCrypt [icon: code]
+  CryptoVerif [icon: code]
+  Squirrel [icon: code]
+}
+
+Attack Models [color: red, icon: alert-triangle] {
+  Dolev-Yao Model [icon: network]
+  Game-Based Model [icon: gamepad]
+}
+
+Verification Methods [color: purple, icon: check-circle] {
+  Abstract Interpretation [icon: search]
+  Concrete Proofs [icon: file-text]
+}
+
+// Connections
+ProVerif > Dolev-Yao Model
+Tamarin > Dolev-Yao Model
+EasyCrypt > Game-Based Model
+CryptoVerif > Game-Based Model
+Squirrel > Game-Based Model
+ProVerif > Abstract Interpretation
+Tamarin > Abstract Interpretation
+EasyCrypt > Concrete Proofs
+CryptoVerif > Concrete Proofs
+Squirrel > Concrete Proofs
+

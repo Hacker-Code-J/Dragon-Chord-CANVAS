@@ -1,0 +1,45 @@
+cloud-architecture-diagram
+
+// Title
+title Formal Verification in Cybersecurity: Symbolic vs Computational Security
+
+// Symbolic Security Group
+Symbolic Security [color: blue, icon: shield] {
+  Verification Model [label: "Abstract, Rule-based"]
+  Attack Model [label: "Dolev-Yao"]
+  Tools [label: "ProVerif, Tamarin"]
+  Automation [label: "High"]
+  Practical Applicability [label: "Logical Flaws"]
+  Examples of Use [label: "TLS, Signal, Bluetooth"]
+  Verification Method [label: "Abstract Interpretation"]
+}
+
+// Computational Security Group
+Computational Security [color: green, icon: lock] {
+  Verification Model [label: "Probabilistic, Game-based"]
+  Attack Model [label: "Game-based Probability"]
+  Tools [label: "EasyCrypt, CryptoVerif, Squirrel"]
+  Automation [label: "Low"]
+  Practical Applicability [label: "Probabilistic Security Bounds"]
+  Examples of Use [label: "General Cryptographic Analysis"]
+  Verification Method [label: "Concrete Proofs"]
+}
+
+// Connections for Symbolic Security
+Symbolic Security > Verification Model
+Symbolic Security > Attack Model
+Symbolic Security > Tools
+Symbolic Security > Automation
+Symbolic Security > Practical Applicability
+Symbolic Security > Examples of Use
+Symbolic Security > Verification Method
+
+// Connections for Computational Security
+Computational Security > Verification Model
+Computational Security > Attack Model
+Computational Security > Tools
+Computational Security > Automation
+Computational Security > Practical Applicability
+Computational Security > Examples of Use
+Computational Security > Verification Method
+

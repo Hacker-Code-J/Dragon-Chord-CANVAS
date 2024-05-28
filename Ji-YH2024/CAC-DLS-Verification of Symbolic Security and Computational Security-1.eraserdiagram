@@ -1,0 +1,54 @@
+cloud-architecture-diagram
+
+// Title and description
+title Verification of Symbolic Security and Computational Security
+
+// Nodes and groups
+Passive Attacker [icon: user, color: gray]
+Active Attacker [icon: user, color: red]
+
+Symbolic Security [icon: lock, color: blue] {
+  Dolev-Yao Model [icon: book, label: "Dolev-Yao"]
+  Proverif [icon: tool]
+  Tamarin [icon: tool]
+  TLS [icon: shield]
+  Signal [icon: message-circle]
+  Bluetooth [icon: bluetooth]
+}
+
+Computational Security [icon: lock, color: green] {
+  Game-Based Models [icon: gamepad, label: "Game-Based"]
+  EasyCrypt [icon: tool]
+  CryptoVerif [icon: tool]
+  Squirrel [icon: tool]
+}
+
+Data Recombination [icon: shuffle, color: orange]
+Primitive Calls [icon: code, color: orange]
+Cryptographic Analysis [icon: key, color: orange]
+White Box [icon: box, color: black]
+Black Box [icon: box, color: black]
+Abstract Operators [icon: function, color: purple]
+Computational Hardness Assumptions [icon: calculator, color: purple]
+
+// Connections
+Passive Attacker > Symbolic Security
+Active Attacker > Symbolic Security
+Data Recombination > Active Attacker
+Primitive Calls > Active Attacker
+Cryptographic Analysis > Active Attacker
+White Box > Active Attacker
+Black Box > Active Attacker
+Abstract Operators > Symbolic Security
+Dolev-Yao Model > Symbolic Security
+Proverif > Dolev-Yao Model
+Tamarin > Dolev-Yao Model
+TLS > Dolev-Yao Model
+Signal > Dolev-Yao Model
+Bluetooth > Dolev-Yao Model
+Computational Hardness Assumptions > Computational Security
+Game-Based Models > Computational Security
+EasyCrypt > Game-Based Models
+CryptoVerif > Game-Based Models
+Squirrel > Game-Based Models
+

@@ -4,7 +4,7 @@ cloud-architecture-diagram
 title Computer-Aided Cryptography Architecture
 
 // Nodes and Groups
-Design Level [color: blue, icon: puzzle] {
+Cryptographic Engineering [color: blue, icon: puzzle] {
   Security Proofs [icon: shield]
   Design Tools [icon: tool]
 }
